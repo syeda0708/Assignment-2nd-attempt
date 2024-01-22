@@ -1,0 +1,107 @@
+.img1{width:1170px; height: 500px;text-align: center; color: rgba(255, 255, 255, 1);
+background-image: url('./Images/Group\ 13\ \(1\)\ \(1\).png');
+margin: auto;}
+.text-1{font-family:url('https://fonts.googleapis.com/css2?family=Mulish:wght@500;600;700;800&family=Open+Sans:wght@800&family=Work+Sans:ital,wght@0,500;0,600;0,700;0,800;1,400&display=swap');
+  font-size: 64px;
+  font-weight: 800;
+  line-height: 80px;
+  letter-spacing: 0em;
+  padding-top: 150px;}
+  .input1{padding:50px ;}
+ .input1 .input{width: 174px; height: 52px; border-radius: 8px;background-color: rgba(255, 255, 255, 1); color: rgba(19, 19, 24, 0.5); text-align: center;}
+ .input1 .button{width: 174px; height: 52px; border-radius: 8px; background-color: rgba(255, 84, 0, 1); border: 0;color: rgba(255, 255, 255, 1); text-align: center;}
+                            /* 2nd part */                             
+
+.titlte-2{font-family:url('https://fonts.googleapis.com/css2?family=Mulish:wght@500;600;700;800&family=Open+Sans:wght@800&family=Work+Sans:ital,wght@0,500;0,600;0,700;0,800;1,400&display=swap');
+  width: 355px;height: 50px;
+}
+.secondpart{display: flex; justify-content: space-between;
+  margin-left: 135px; margin-right:135px; 
+  margin-top:50px ;
+   gap:100px ;}
+.secondContent{width: 50%; margin: auto 135px; color: rgba(19, 19, 24, 0.7);}
+.secondContent h2{color: black; font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;}
+
+.button2{width:174px ; height:52px; border-radius: 8px; color: rgba(255, 255, 255, 1); background-color: rgba(255, 84, 0, 1); border: 0;
+text-align: center; margin-left: 335px;}
+
+
+/* PART 3 */
+.title-3{ font-size: 40px;
+  font-weight: 800;
+  line-height: 50px;
+  letter-spacing: 0em;
+  text-align: center;
+  margin-top: 100px;
+  font-family: 'Mulish', sans-serif;
+  }       
+  .sec3{text-align: center; margin: 150px;}
+.siximg{gap: 40px; display: grid; grid-template-columns: repeat(1fr);
+margin:40px 40px; margin-right: 20px; justify-content: center;} 
+.siximgP{color: rgba(19, 19, 24, 0.7);}
+.siximg1{gap:20px; display: flex;}
+
+                        /* Part 4 */
+                        
+.boxes{align-items: center;}
+.twobox{display: flex; border-radius: 16px;
+  margin: auto 20%; gap: 24px; width: 573px;}
+.box1{background-color: rgba(251, 181, 99, 0.2); border:1px solid rgba(251, 181, 99, 0.2); border-radius: 16px;width:573px; height:284px ;}
+.box2{ 
+  background-color: rgba(41, 206, 246, 0.2);
+  border:1px solid rgba(41, 206, 246, 0.2);
+  border-radius: 16px;width:573px; height:284px ;}
+.box3{background-color: rgba(233, 68, 68, 0.2);
+  border:1px solid rgba(233, 68, 68, 0.2);
+  border-radius: 16px;width:573px; height:284px ;
+margin: 15px 250px;}
+.footer{background-color: rgba(19, 19, 24, 0.05);
+  width: 100%;
+  height: 502px;
+  top: 6438px;
+  }
+  .title-footer{font-size: 40px;
+    font-weight: 800;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-top: 100px;
+    font-family: 'Mulish', sans-serif; justify-content: center;
+  padding-top: 250px;gap: 40px;}
+  .travel{ color: rgba(255, 84, 0, 1);}
+  .lastP{width: 769px;
+    height: 52px;
+    top: 6603px;
+    left: 335px; padding-left: 600px;color: rgba(19, 19, 24, 0.7);}
+  .lastline{padding-left:150px ;}
+  .line{border-bottom: 1px solid rgba(19, 19, 24, 0.1);}
+  .copywright{font-family: Inter;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 19px;
+    letter-spacing: 0em;
+    text-align: left; text-align: center; margin-top: 50px; color: rgba(19, 19, 24, 1);
+    }
+    .box1{width: 100%; text-align: center;}
+    .lastP{padding-left: 335px;}
+    
+@media screen and (max-width:571px) {
+  .img1{display: flex; flex-direction: column;
+  width:auto;}
+  .secondpart{width: 50%; height: 50%; position: relative;
+  display: flex; flex-direction: column-reverse; margin-left: -130px;
+  margin-top: 500px;
+  justify-content: start;}
+  .button2{margin-left: -10px;}
+  .siximg1{flex-direction: column;
+  width: 100%;}
+  .title-3{margin-left: -70px;}
+  .siximgP{width: 76%; margin-left: 2%;}
+  .twobox{display: block; margin-left: -200px;}
+  .box3{display: block; margin-left: -200px;}
+  .copywright{text-align: center;}
+  .lastP{margin-left: 600px; width: 100%;}
+  .footer{width: 100%; height: auto;}
+  
+
+}
